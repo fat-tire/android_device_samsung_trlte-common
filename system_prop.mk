@@ -34,6 +34,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.sec_hal=true
 
+# Power
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.core_ctl_min_cpu=2 \
+    ro.core_ctl_max_cpu=4 \
+    ro.min_freq_0=300000 \
+    ro.qualcomm.perf.cores_online=2
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
