@@ -13,3 +13,4 @@
 /sys/devices/virtual/lcd/panel/power_reduce					u:object_r:lcd_dev:s0
 
 /system/bin/macloader										u:object_r:macloader_exec:s0
+/system/bin/sensorhubservice                                 u:object_r:sensorhubservice_exec:s0
