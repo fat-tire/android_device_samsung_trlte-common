@@ -129,7 +129,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprintd \
     fingerprint.apq8084 \
-    ValidityService
+    validityservice
 
 PRODUCT_PROPERTY_OVERRIDES += \
     fingerprint_enabled=1
