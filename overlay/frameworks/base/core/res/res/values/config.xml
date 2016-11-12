@@ -441,10 +441,10 @@
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
 
     <!-- Boolean to enable Stylus gestures -->
-    <bool name="config_stylusGestures">true</bool>
+    <!-- bool name="config_stylusGestures">true</bool-->
 
     <!-- Boolean to enable stk functionality on Samsung phones -->
-    <bool name="config_samsung_stk">true</bool>
+    <!--bool name="config_samsung_stk">true</bool-->
 
     <!-- enable doze powersaving mode -->
     <bool name="config_enableAutoPowerModes">true</bool>
